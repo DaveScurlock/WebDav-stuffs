@@ -1,6 +1,7 @@
 * {
     border: 0px;
     padding: 0px;
+    margin: 10px 5px;
 }
 
 h1 {
@@ -35,6 +36,22 @@ p {
     background-color: #9AEEE0;
     height: 275px;
 }
+
+
+table {
+    padding-top: 30px;
+    margin: 0 auto;
+    table-layout: fixed;
+
+}
+
+td {
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 20px
+}
+
+
 
 .font {
     background-color: #9AD3EE;
