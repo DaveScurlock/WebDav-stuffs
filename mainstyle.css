@@ -1,6 +1,7 @@
 * {
     border: 0px;
     padding: 0px;
+    margin: 0px;
 
 }
 
@@ -15,7 +16,7 @@ p {
 
 li {
     font-family: 'Poppins', sans-serif;  
-    list-style-type: circle;
+  
 }
 
 div {
