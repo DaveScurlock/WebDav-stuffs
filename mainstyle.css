@@ -18,3 +18,7 @@ li {
     list-style-type: circle;
     line-height: 2;
 }
+
+div {
+    margin: 10px;
+}
