@@ -11,9 +11,16 @@ h1 {
 
 }
 
+h3 {
+    text-decoration: underline;
+    color: black;
+    font-family: 'Poppins', sans-serif;  
+
+}
+
 p {
     font-family: 'Poppins', sans-serif;
-    color: red;
+    color: black
 }
 
 .header p {
