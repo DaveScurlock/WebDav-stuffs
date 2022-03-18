@@ -1,7 +1,8 @@
 * {
     border: 0px;
     padding: 0px;
-    margin: 10px 5px;
+    margin: 0px;
+
 }
 
 h1 {
@@ -9,19 +10,22 @@ h1 {
     text-align: center;
     color: black;
     font-family: 'Poppins', sans-serif;  
+    margin: 10px 5px;
 
 }
 
 h3 {
     text-decoration: underline;
     color: black;
-    font-family: 'Poppins', sans-serif;  
+    font-family: 'Poppins', sans-serif; 
+    margin: 10px 5px; 
 
 }
 
 p {
     font-family: 'Poppins', sans-serif;
-    color: black
+    color: black;
+    margin: 10px 5px;
 }
 
 .header p {
@@ -30,17 +34,21 @@ p {
 
 .header {
     background-color: white;
+    margin: 10px 5px;
 }
 
 .colors {
     background-color: #9AEEE0;
-    height: 275px;
+    min-height: 290px;
+    max-width: 1000px;
+    overflow-y: auto;
+    margin: 10px auto;
 }
 
 
 table {
-    padding-top: 30px;
-    margin: 0 auto;
+    
+    margin: 0 auto 30px;
     table-layout: fixed;
 
 }
@@ -55,21 +63,27 @@ td {
 
 .font {
     background-color: #9AD3EE;
-    height: 275px;
+    min-height: 290px;
+    max-width: 1000px;
+    overflow-y: auto;
+    margin: 10px auto;
 }
 
 .text-styles {
     background-color: #9AEEB6;
-    height: 275px;
+    min-height: 290px;
+    max-width: 1000px;
+    overflow-y: auto;
+    margin: 10px auto;
 }
 
 
 #color1 {
-    background-color: #BC9E43;
+    background-color: #43BC61;
 }
 
 #color2 {
-    background-color: #43BC61;
+    background-color: #BC9E43;
 }
 
 #color3 {
