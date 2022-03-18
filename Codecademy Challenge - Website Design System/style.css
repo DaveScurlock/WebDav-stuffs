@@ -28,6 +28,11 @@ p {
     margin: 10px 5px;
 }
 
+#nav {
+    max-width: 1000px;
+    margin: 10px auto;
+}
+
 .header p {
     font-size: 8pt;
 }
@@ -42,7 +47,7 @@ p {
     min-height: 290px;
     max-width: 1000px;
     overflow-y: auto;
-    margin: 10px auto;
+    margin: 0 auto;
 }
 
 
@@ -66,7 +71,7 @@ td {
     min-height: 290px;
     max-width: 1000px;
     overflow-y: auto;
-    margin: 10px auto;
+    margin: 0 auto;
 }
 
 .text-styles {
@@ -74,7 +79,7 @@ td {
     min-height: 290px;
     max-width: 1000px;
     overflow-y: auto;
-    margin: 10px auto;
+    margin: 0 auto;
 }
 
 
@@ -92,5 +97,10 @@ td {
 
 #color4 {
     background-color: #BC439E;
+}
+
+.wrapper {
+    padding: 0 10px;
+    margin-bottom: 5px;
 }
 
