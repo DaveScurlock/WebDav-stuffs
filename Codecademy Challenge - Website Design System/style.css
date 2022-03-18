@@ -22,6 +22,14 @@ h3 {
 
 }
 
+h5 {
+    text-decoration: underline;
+    color: black;
+    font-family: 'Poppins', sans-serif; 
+    margin: 5px 5px; 
+
+}
+
 p {
     font-family: 'Poppins', sans-serif;
     color: black;
@@ -29,7 +37,7 @@ p {
 }
 
 #nav {
-    max-width: 1000px;
+    max-width: 850px;
     margin: 10px auto;
 }
 
@@ -45,7 +53,7 @@ p {
 .colors {
     background-color: #9AEEE0;
     min-height: 290px;
-    max-width: 1000px;
+    max-width: 850px;
     overflow-y: auto;
     margin: 0 auto;
 }
@@ -69,17 +77,46 @@ td {
 .font {
     background-color: #9AD3EE;
     min-height: 290px;
-    max-width: 1000px;
+    max-width: 850px;
     overflow-y: auto;
     margin: 0 auto;
 }
 
+.wrapper2 {
+    padding: 0 10px;
+}
+
+
+
+.font1, .font2 {
+    vertical-align: top;
+    display: inline-block;
+    width: 49%;
+    min-height: 100%;
+    margin: auto auto;
+
+}
+
+.font1 p, .font1 h5 {
+    font-family: 'Comfortaa', cursive;
+}
+
+.font2 p, .font1 h5 {
+    font-family: 'Exo 2', sans-serif;
+}
+
+.font3 p, .font1 h5 {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
 .text-styles {
     background-color: #9AEEB6;
     min-height: 290px;
-    max-width: 1000px;
+    max-width: 850px;
     overflow-y: auto;
-    margin: 0 auto;
+    margin: 0 auto 20px;
 }
 
 
