@@ -1,25 +1,9 @@
 
 
-h1 {
+.wrapper {
     font-family: 'Poppins', sans-serif;  
-}
-
-p {
-    font-family: 'Poppins', sans-serif;  
-
-}
-
-li {
-    font-family: 'Poppins', sans-serif;  
-}
-
-.intro {
     margin: 10px;
     padding: 40px;
 }
 
-.projects {
-    margin: 10px;
-    padding: 40px;
-}
 
