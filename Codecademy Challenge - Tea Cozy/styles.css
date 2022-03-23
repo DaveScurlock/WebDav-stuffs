@@ -1,15 +1,13 @@
 * {
-
     font-family: Helvetica, sans-serif;
     color: seashell;
     background-color: black;
     opacity: 0.9;
     font-size: 22px;
-
 }
 
-/* HEADER */
 
+/* HEADER */
 
 
 #logo {
@@ -43,7 +41,9 @@ nav li {
     font-weight: bold;
 }
 
+
 /* LOGO AND SPLASH */
+
 
 .logo-top img {
     z-index: 0;
@@ -71,5 +71,34 @@ h2, h4 {
     text-align: center;
     opacity: 0.9;
     font-weight: bold;
- 
 }
+
+/* FLEXBOX SECTION */
+
+.textbox {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* flexbox*/
+
+.flexcontainer {
+    align-content: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.innerbox {
+    margin: 15px;
+}
+
+.innerbox img {
+    width: 300px;
+    height: 200px;
+}
+
+
+
