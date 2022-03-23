@@ -10,10 +10,7 @@
 
 /* HEADER */
 
-header {
-    width: 100%;
-    height: 69px;
- }
+
 
 #logo {
     height: 50px;
@@ -22,11 +19,21 @@ header {
     
 }
 
+.wrapper {
+    width: 100%;
+}
+
+.container {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
 nav {
     background-color: black;
     float: right;
     margin-right: 10px;
     margin-top: 8px;
+    height: 69px;
 }
 
 nav li {
@@ -37,11 +44,6 @@ nav li {
 }
 
 /* LOGO AND SPLASH */
-
-.logo-top {
-    width: 100%;
-
-}
 
 .logo-top img {
     z-index: 0;
