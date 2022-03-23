@@ -1,17 +1,19 @@
 * {
+
     font-family: Arial, Helvetica, sans-serif;
     color: seashell;
     background-color: black;
     opacity: 0.9;
-    font-size: 22px
+    
 
 }
 
 /* HEADER */
+
 header {
-    position: fixed;
     width: 100%;
-}
+    height: 69px;
+ }
 
 #logo {
     height: 50px;
@@ -29,4 +31,38 @@ nav li {
     margin: 0 10px;
     text-decoration: underline;
     font-weight: bold;
+}
+
+/* LOGO AND SPLASH */
+
+.logo-top {
+    width: 100%;
+
+}
+
+.logo-top img {
+    z-index: 0;
+    position: relative;
+}
+
+#background {
+
+    width: 1200px;
+    height: 700px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+#mission {
+    top: 380px;
+    position: absolute;
+    z-index: 20;
+    width: 1200px;
+    background-color: black;
+    opacity: 100;
+}
+
+h2, h4 {
+    text-align: center;
+    opacity: 0.9;
 }
