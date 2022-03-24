@@ -1,9 +1,11 @@
+/* GENERAL */
+
 * {
     font-family: Helvetica, sans-serif;
     color: seashell;
     background-color: black;
     opacity: 0.9;
-    font-size: 22px;
+    
 }
 
 
@@ -45,17 +47,10 @@ nav li {
 /* LOGO AND SPLASH */
 
 
-.logo-top img {
-    z-index: 0;
-    position: relative;
-}
-
 #background {
-    display: flex;
     width: 1200px;
     height: 700px;
     margin: 0 auto;
-    overflow: hidden;
     background-image: url(./content/img-mission-background.jpg)
 }
 
@@ -66,6 +61,23 @@ nav li {
     width: 1200px;
     background-color: black;
     opacity: 100;
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3, h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 18px;
 }
 
 h2, h4 {
@@ -159,6 +171,12 @@ h2, h4 {
 
 
 .copyright {
-    margin: 0 20px; 
+    width: 1200px;
+    margin: 0 auto; 
+}
+
+.copyright p {
+    margin-left: 20px;
+    font-weight: bold;
 }
 
