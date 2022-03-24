@@ -5,72 +5,8 @@
     font-family: Helvetica, sans-serif;
     color: seashell;
     background-color: black;
-    opacity: 0.9;
-    
+    opacity: 0.9; 
 }
-
-
-/* HEADER */
-
-
-#logo {
-    height: 50px;
-    margin-left: 10px;
-    margin-top: 10px;
-    
-}
-
-.wrapper {
-    width: 100%;
-}
-
-.container {
-    max-width: 1350px;
-    margin: 0 auto;
-}
-
-nav {
-    background-color: black;
-    float: right;
-    margin-right: 10px;
-    margin-top: 8px;
-    height: 69px;
-}
-
-nav li {
-    display: inline;
-    margin: 0 10px;
-    text-decoration: underline;
-    font-weight: bold;
-}
-
-
-/* LOGO AND SPLASH */
-
-
-.background {
-    max-width: 1200px;
-    height: 700px;
-    margin: 0 auto;
-    background-image: url(./content/img-mission-background.jpg)
-}
-
-.mission {
-    position: absolute;
-    top: 375px;
-    z-index: 2;
-    width: 1200px;
-    background-color: black;
-    opacity: 100;
-    padding-top: 1px;
-}
-
-.mission h2, h4 { 
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-
 
 h1 {
     font-size: 32px;
@@ -124,6 +60,66 @@ h2, h4 {
 
 .innerbox h4{
     margin: 10px auto;
+}
+
+
+/* HEADER */
+
+
+#logo {
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.container {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: black;
+    float: right;
+    margin-right: 10px;
+    margin-top: 8px;
+    height: 69px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+/* LOGO AND SPLASH */
+
+
+.background {
+    max-width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    background-image: url(./content/img-mission-background.jpg)
+}
+
+.mission {
+    position: absolute;
+    top: 375px;
+    z-index: 2;
+    width: 1200px;
+    background-color: black;
+    opacity: 100;
+    padding-top: 1px;
+}
+
+.mission h2, h4 { 
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
