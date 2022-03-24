@@ -7,7 +7,6 @@
     background-color: black;
     opacity: 0.9; 
     box-sizing: border-box;
-    border: 1px solid red;
     
 }
 
@@ -32,37 +31,6 @@ h2, h4 {
     text-align: center;
     opacity: 0.9;
     font-weight: bold;
-}
-
-/* FLEXBOX SECTION */
-
-.textbox {
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-/* flexbox*/
-
-.flexcontainer {
-    align-content: center;
-    margin: 0 auto;
-    max-width: 1000px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.innerbox {
-    margin: 7.5px;
-}
-
-.innerbox img {
-    width: 300px;
-    height: 200px;
-}
-
-.innerbox h4{
-    margin: 10px auto;
 }
 
 
@@ -123,6 +91,38 @@ nav li {
 .mission h2, h4 { 
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+/* FLEXBOX SECTION */
+
+
+.textbox {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* flexbox*/
+
+.flexcontainer {
+    align-content: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.innerbox {
+    margin: 7.5px;
+}
+
+.innerbox img {
+    width: 300px;
+    height: 200px;
+}
+
+.innerbox h4{
+    margin: 10px auto;
 }
 
 
