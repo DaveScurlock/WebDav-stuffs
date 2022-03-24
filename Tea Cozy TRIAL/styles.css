@@ -1,0 +1,191 @@
+/* GENERAL */
+
+
+* {
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9; 
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3, h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h2, h4 {
+    text-align: center;
+    opacity: 0.9;
+    font-weight: bold;
+}
+
+/* FLEXBOX SECTION */
+
+.textbox {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* flexbox*/
+
+.flexcontainer {
+    align-content: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.innerbox {
+    margin: 7.5px;
+}
+
+.innerbox img {
+    width: 300px;
+    height: 200px;
+}
+
+.innerbox h4{
+    margin: 10px auto;
+}
+
+
+/* HEADER */
+
+
+#logo {
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.container {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: black;
+    float: right;
+    margin-right: 10px;
+    margin-top: 8px;
+    height: 69px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+/* LOGO AND SPLASH */
+
+
+.background {
+    max-width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    
+    background-image: url(./content/img-mission-background.jpg)
+}
+
+.mission {
+    position: relative;
+    top: 375px;
+    z-index: 2;
+    width: 100%;
+    background-color: black;
+    opacity: 100;
+    padding-top: 1px;
+
+}
+
+.mission h2, h4 { 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* LOCATIONS SECTION */
+
+
+.locations {
+
+    max-width: 1200px;
+    min-height: 500px;
+    margin: 0 auto;
+    background-image: url(./content/img-locations-background.jpg);
+}
+
+.locations h2 {
+    background-color: rgba(1, 1, 1, 0);
+    padding-top:80px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.locations-flexbox {
+  
+    padding-bottom: 40px;
+    background-color: rgba(1,1,1,0);
+    align-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    align-items: flex-start;
+}
+
+.locations-flexitem {
+    margin: 0 20px 20px;
+    text-align: center;
+    width: 300px;
+}
+
+
+/* FOOTER SECTION */
+
+
+.footer {
+    height: 200px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/* COPYRIGHT SECTION */
+
+
+.copyright {
+    width: 1200px;
+    margin: 0 auto; 
+}
+
+.copyright p {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
