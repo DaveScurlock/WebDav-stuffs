@@ -6,6 +6,9 @@
     color: seashell;
     background-color: black;
     opacity: 0.9; 
+    box-sizing: border-box;
+    border: 1px solid red;
+    
 }
 
 h1 {
@@ -109,9 +112,9 @@ nav li {
 
 .mission {
     position: absolute;
-    top: 375px;
-    z-index: 2;
-    width: 1200px;
+    top: 360px;
+    left: 0;
+    right: 0;
     background-color: black;
     opacity: 100;
     padding-top: 1px;
