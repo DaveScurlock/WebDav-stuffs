@@ -51,11 +51,12 @@ nav li {
 }
 
 #background {
-
+    display: flex;
     width: 1200px;
     height: 700px;
-    margin: 0px auto;
+    margin: 0 auto;
     overflow: hidden;
+    background-image: url(./content/img-mission-background.jpg)
 }
 
 #mission {
@@ -92,7 +93,7 @@ h2, h4 {
 }
 
 .innerbox {
-    margin: 15px;
+    margin: 7.5px;
 }
 
 .innerbox img {
@@ -100,5 +101,64 @@ h2, h4 {
     height: 200px;
 }
 
+.innerbox h4{
+    margin: 10px auto;
+}
 
+
+/* LOCATIONS SECTION */
+
+
+.locations {
+
+    max-width: 1200px;
+    min-height: 500px;
+    margin: 0 auto;
+    background-image: url(./content/img-locations-background.jpg);
+}
+
+.locations h1 {
+    background-color: rgba(1, 1, 1, 0);
+    padding-top:80px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.locations-flexbox {
+  
+    padding-bottom: 40px;
+    background-color: rgba(1,1,1,0);
+    align-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    align-items: flex-start;
+}
+
+.locations-flexitem {
+    margin: 0 20px 20px;
+    text-align: center;
+    width: 300px;
+}
+
+
+/* FOOTER SECTION */
+
+
+.footer {
+    height: 200px;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/* COPYRIGHT SECTION */
+
+
+.copyright {
+    margin: 0 20px; 
+}
 
