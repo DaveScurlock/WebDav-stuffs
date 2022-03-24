@@ -48,21 +48,28 @@ nav li {
 /* LOGO AND SPLASH */
 
 
-#background {
+.background {
     max-width: 1200px;
     height: 700px;
     margin: 0 auto;
     background-image: url(./content/img-mission-background.jpg)
 }
 
-#mission {
-    position: relative;
-    top: 299px;
+.mission {
+    position: absolute;
+    top: 375px;
     z-index: 2;
-    width: 100%;
+    width: 1200px;
     background-color: black;
     opacity: 100;
+    padding-top: 1px;
 }
+
+.mission h2, h4 { 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 
 
 h1 {
@@ -131,7 +138,7 @@ h2, h4 {
     background-image: url(./content/img-locations-background.jpg);
 }
 
-.locations h1 {
+.locations h2 {
     background-color: rgba(1, 1, 1, 0);
     padding-top:80px;
     text-align: center;
