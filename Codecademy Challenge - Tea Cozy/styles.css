@@ -75,7 +75,9 @@ nav li {
     max-width: 1200px;
     height: 700px;
     margin: 0 auto;
-    background-image: url(./content/img-mission-background.jpg)
+    background-image: url(./content/img-mission-background.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .mission {
