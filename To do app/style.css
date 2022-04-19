@@ -1,0 +1,53 @@
+/* GENERAL */
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding: 5px 5px;
+    
+  
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+
+
+header {
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.user-input {
+   
+    width: 400px;
+    background-color: lightgray;
+    color: midnightblue;
+   
+}
+
+.list {
+   
+    width: 600px;
+    background-color: midnightblue;
+    color: lightgray;
+
+
+}
+
+footer {
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
