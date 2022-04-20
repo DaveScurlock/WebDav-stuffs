@@ -40,6 +40,7 @@ header {
     max-width: 400px;
     background-color: lightgray;
     color: midnightblue;
+    border-radius: 15px 0 0 15px;
 }
 
 textarea {
@@ -52,6 +53,7 @@ textarea {
     max-width: 600px;
     background-color: midnightblue;
     color: lightgray;
+    border-radius: 0 15px 15px 0;
 }
 
 footer {
@@ -66,11 +68,14 @@ footer {
         flex-wrap: wrap;
     }
 
-    .list {
-        width: 380px;
-    }
-
     .user-input {
         width: 380px;
+        border-radius: 15px 15px 0 0;
     }
+
+    .list {
+        width: 380px;
+        border-radius: 0 0 15px 15px;
+    }
+
 }
