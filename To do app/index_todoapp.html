@@ -24,9 +24,11 @@
     <div class="user-input">
       <h2>Item entry</h2>
       <form>
-        <label for="entry-date">Entry date:</label>
+        
+        <label for="entry-time">Entry date:</label>
         <br>
-        <input type="date" id="entry-date" name="entry-date" min="2022-01-01" max="2050-12-31" required>
+        <input type="date" id="entry-time" name="entry-date" min="2022-01-01" max="2050-12-31" required>
+        <input type="time" id="entry-time" name="entry-time">
         <br>
 
         <label for="title">Title:</label>
@@ -40,6 +42,13 @@
         <textarea id="entry" name="entry" rows="5" cols="55" max-length="400" required></textarea>
         <br>
 
+        <label for="complete-by">Complete by:</label>
+        <br>
+        <input type="date" id="complete-by" name="complete-by-date" min="2022-01-01" max="2050-12-31" required>
+        <input type="time" id="complete-by" name="complete-by-time">
+
+        <br>
+
         <label for="urgency">Urgent?</label>
         <input type="radio" id="yes" name="urgency" value="yes" required>
         <label for="yes">Yes</label>
@@ -48,14 +57,21 @@
         <br>
         <br>
 
+
+
         <input type="submit" value="Create entry">
         
       </form>
     </div>
     <div class="list">
         <h2>List content</h2>
-        <p>this is where the list items will appear</p>
-        <p>hopefully they'll work</p>
+        <ol>
+          <li>Sit cillum reprehenderit excepteur cillum veniam velit elit quis. Labore ex elit commodo occaecat eiusmod nisi ad quis Lorem dolor reprehenderit anim voluptate. Magna minim pariatur sunt minim esse laborum nisi consequat in dolore nulla laboris. Cillum deserunt proident aute est.</li>
+
+          <li>Deserunt dolor consectetur eu voluptate aliqua. Et sit incididunt irure Lorem anim. Nulla aliquip ullamco esse et ex irure aliquip nulla nisi. Ad ut sit ad nulla aliqua id qui. Consequat eiusmod dolore fugiat magna irure excepteur nisi incididunt ipsum sit velit cupidatat. Ullamco anim deserunt nostrud aute cillum.</li>
+
+          <li>Excepteur excepteur sint est proident officia mollit culpa sint sunt ea aliqua magna. Veniam elit Lorem proident ut eiusmod laboris magna enim magna nostrud ullamco. Eu ipsum commodo reprehenderit pariatur anim proident id exercitation magna. Duis duis laborum laborum amet duis consectetur cillum qui aute Lorem veniam. Et eiusmod sit excepteur ex sit. Proident pariatur commodo incididunt adipisicing commodo reprehenderit culpa occaecat magna esse culpa cupidatat culpa magna.</li>
+        </ol>
     </div>
   </div>
 </section>

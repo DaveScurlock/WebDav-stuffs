@@ -12,6 +12,9 @@ h2 {
     text-decoration: underline;
 }
 
+li {
+    margin-left: 15px;
+}
 
 
 header {
@@ -24,26 +27,27 @@ header {
     margin: 0 auto;
     max-width: 1200px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
 
 .user-input {
-   
-    width: 400px;
+    min-width: 350px;
+    max-width: 400px;
     background-color: lightgray;
     color: midnightblue;
-   
+}
+
+textarea {
+    resize: none;
+    max-width: 340px;
 }
 
 .list {
-   
-    width: 600px;
+    min-width: 350px;
+    max-width: 600px;
     background-color: midnightblue;
     color: lightgray;
-
-
 }
 
 footer {
@@ -52,3 +56,17 @@ footer {
     margin: 0 auto;
 }
 
+@media only screen and (max-width: 480px) {
+
+    .wrapper {
+        flex-wrap: wrap;
+    }
+
+    .list {
+        width: 380px;
+    }
+
+    .user-input {
+        width: 380px;
+    }
+}
