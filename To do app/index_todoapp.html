@@ -16,7 +16,7 @@
 <body>
 
 <header>
-  <h1>To Do App [Front end only]</h1>
+  <h1>To Do App [front-end only]</h1>
 </header>
 
 <section class="main">  
@@ -24,17 +24,32 @@
     <div class="user-input">
       <h2>Item entry</h2>
       <form>
-        <label for="entry-date">Entry date: </label>
+        <label for="entry-date">Entry date:</label>
         <br>
-        <input type="date" id="entry-date" name="entry-date" min="2022-01-01" max="2050-12-31">
+        <input type="date" id="entry-date" name="entry-date" min="2022-01-01" max="2050-12-31" required>
+        <br>
+
+        <label for="title">Title:</label>
+        <br>
+        <input type="text" id="title" name="title" max-length="50" required>
         <br>
      
-        <label for="entry">Task: </label>
+     
+        <label for="entry">Task:</label>
         <br>
-        <textarea id="entry" name="entry" rows="5" cols="55"></textarea>
+        <textarea id="entry" name="entry" rows="5" cols="55" max-length="400" required></textarea>
         <br>
-       
+
+        <label for="urgency">Urgent?</label>
+        <input type="radio" id="yes" name="urgency" value="yes" required>
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" name="urgency" value="no" required>
+        <label for="yes">No</label>
+        <br>
+        <br>
+
         <input type="submit" value="Create entry">
+        
       </form>
     </div>
     <div class="list">
