@@ -32,6 +32,7 @@ header {
     max-width: 1200px;
     display: flex;
     justify-content: center;
+    align-items: flex-start;
 }
 
 
@@ -54,6 +55,11 @@ textarea {
     background-color: midnightblue;
     color: lightgray;
     border-radius: 0 15px 15px 0;
+}
+
+.list p {
+    width: 100%;
+    overflow: hidden;
 }
 
 footer {

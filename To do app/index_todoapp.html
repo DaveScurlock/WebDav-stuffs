@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
   <link href="./style.css" type="text/CSS" rel="stylesheet">
-  <script type="text/javascript" src="./script.js" defer></script>
+ 
 </head>
 
 
@@ -24,11 +24,11 @@
   <div class="wrapper"> 
     <div class="user-input">
       <h2>Item entry</h2>
-      <form name="user-input" method="GET">
-        
+     
+        <div>
         <label for="entry-time">Entry date:</label>
         <br>
-        <input type="date" id="entry-time" name="entry-date" min="2022-01-01" max="2050-12-31" required>
+        <input type="date" id="entry-time" name="entry-date" min="2022-01-01" max="2050-12-31" >
         <input type="time" id="entry-time" name="entry-time">
         <br>
 
@@ -40,47 +40,34 @@
      
         <label for="entry">Task:</label>
         <br>
-        <textarea id="entry" name="entry" rows="5" cols="55" max-length="400" required></textarea>
+        <textarea id="entry" name="entry" rows="5" cols="55" max-length="400" ></textarea>
         <br>
 
         <label for="complete-by">Complete by:</label>
         <br>
-        <input type="date" id="complete-by" name="complete-by-date" min="2022-01-01" max="2050-12-31" required>
+        <input type="date" id="complete-by" name="complete-by-date" min="2022-01-01" max="2050-12-31" >
         <input type="time" id="complete-by" name="complete-by-time">
 
         <br>
 
         <label for="urgency">Urgent?</label>
-        <input type="radio" id="yes" name="urgency" value="yes" required>
+        <input type="radio" id="yes" name="urgency" value="yes" >
         <label for="yes">Yes</label>
-        <input type="radio" id="no" name="urgency" value="no" required>
+        <input type="radio" id="no" name="urgency" value="no" >
         <label for="yes">No</label>
         <br>
         <br>
-
-        <input type="submit" value="Create-entry">
-        
-      </form>
+        <button id="addToDo">Create item</button>
+        </div>
+      
     </div>
 
     <div class="list">
         <h2>List content</h2>
-        <p id="list"></p>
-        <script>
-          const list = document.getElementById('list')
-          const values = []
-          new URLSearchParams(window.location.search).forEach((value, values) => {
-            values.append(value)
-          })
-          console.log('hello world')
-          list.append(values[0])
-          
-        </script>
-        <ol>
-          <li>Sit cillum reprehenderit excepteur cillum veniam velit elit quis. Labore ex elit commodo occaecat eiusmod nisi ad quis Lorem dolor reprehenderit anim voluptate. Magna minim pariatur sunt minim esse laborum nisi consequat in dolore nulla laboris. Cillum deserunt proident aute est.</li>
+        <div id="listContent">
 
-        
-        </ol>
+        </div>
+             
     </div>
 
   </div>
@@ -89,6 +76,8 @@
  <footer>
    <p><a href="/index.html" ><-- back to main menu</a></p>
  </footer>
+
+ <script type="text/javascript" src="./script.js"></script>
 
 </body>
 
