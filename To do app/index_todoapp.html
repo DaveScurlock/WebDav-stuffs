@@ -24,7 +24,7 @@
   <div class="wrapper"> 
     <div class="user-input">
       <h2>Item entry</h2>
-      <form name="user-input" action="" method="GET">
+      <form name="user-input" method="GET">
         
         <label for="entry-time">Entry date:</label>
         <br>
@@ -58,22 +58,31 @@
         <br>
         <br>
 
-
-
-        <input type="submit" value="Create entry">
+        <input type="submit" value="Create-entry">
         
       </form>
     </div>
+
     <div class="list">
         <h2>List content</h2>
+        <p id="list"></p>
+        <script>
+          const list = document.getElementById('list')
+          const values = []
+          new URLSearchParams(window.location.search).forEach((value, values) => {
+            values.append(value)
+          })
+          console.log('hello world')
+          list.append(values[0])
+          
+        </script>
         <ol>
           <li>Sit cillum reprehenderit excepteur cillum veniam velit elit quis. Labore ex elit commodo occaecat eiusmod nisi ad quis Lorem dolor reprehenderit anim voluptate. Magna minim pariatur sunt minim esse laborum nisi consequat in dolore nulla laboris. Cillum deserunt proident aute est.</li>
 
-          <li>Deserunt dolor consectetur eu voluptate aliqua. Et sit incididunt irure Lorem anim. Nulla aliquip ullamco esse et ex irure aliquip nulla nisi. Ad ut sit ad nulla aliqua id qui. Consequat eiusmod dolore fugiat magna irure excepteur nisi incididunt ipsum sit velit cupidatat. Ullamco anim deserunt nostrud aute cillum.</li>
-
-          <li>Excepteur excepteur sint est proident officia mollit culpa sint sunt ea aliqua magna. Veniam elit Lorem proident ut eiusmod laboris magna enim magna nostrud ullamco. Eu ipsum commodo reprehenderit pariatur anim proident id exercitation magna. Duis duis laborum laborum amet duis consectetur cillum qui aute Lorem veniam. Et eiusmod sit excepteur ex sit. Proident pariatur commodo incididunt adipisicing commodo reprehenderit culpa occaecat magna esse culpa cupidatat culpa magna.</li>
+        
         </ol>
     </div>
+
   </div>
 </section>
 
