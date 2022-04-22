@@ -23,49 +23,34 @@
 <section class="main">  
   <div class="wrapper"> 
     <div class="user-input">
-      <h2>Item entry</h2>
+      <h2>Create task</h2>
      
         <div>
-        <label for="entry-time">Entry date:</label>
-        <br>
-        <input type="date" id="entry-time" name="entry-date" min="2022-01-01" max="2050-12-31" >
-        <input type="time" id="entry-time" name="entry-time">
-        <br>
-
-        <label for="title">Title:</label>
+       
+        <label for="title">Task:</label>
         <br>
         <input type="text" id="title" name="title" max-length="50" required>
         <br>
      
      
-        <label for="entry">Task:</label>
+        <label for="description">Description:</label>
         <br>
-        <textarea id="entry" name="entry" rows="5" cols="55" max-length="400" ></textarea>
-        <br>
-
-        <label for="complete-by">Complete by:</label>
-        <br>
-        <input type="date" id="complete-by" name="complete-by-date" min="2022-01-01" max="2050-12-31" >
-        <input type="time" id="complete-by" name="complete-by-time">
-
+        <textarea id="description" name="description" rows="5" cols="55" max-length="400" ></textarea>
         <br>
 
-        <label for="urgency">Urgent?</label>
-        <input type="radio" id="yes" name="urgency" value="yes" >
-        <label for="yes">Yes</label>
-        <input type="radio" id="no" name="urgency" value="no" >
-        <label for="yes">No</label>
-        <br>
-        <br>
+
         <button id="addToDo">Create item</button>
+        <p id="note">Please provide a task and description.</p>
         </div>
       
     </div>
 
     <div class="list">
-        <h2>List content</h2>
+        <h2>To do list</h2>
         <div id="listContent">
-
+          <ol id="listContentActual">
+          
+          </ol>
         </div>
              
     </div>

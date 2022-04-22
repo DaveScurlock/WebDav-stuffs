@@ -12,13 +12,14 @@ h2 {
     text-decoration: underline;
 }
 
-li {
-    margin-left: 20px;
+ol {
+    margin-left: 10px;
 }
 
-ol {
-    margin-left: 20px;
+li {
+    margin-left: 10px;
 }
+
 
 
 header {
@@ -37,6 +38,7 @@ header {
 
 
 .user-input {
+    min-height: 380px;
     min-width: 350px;
     max-width: 400px;
     background-color: lightgray;
@@ -49,7 +51,16 @@ textarea {
     max-width: 320px;
 }
 
+#note {
+    font-style: italic;
+    color: red;
+    font-size: 0.8em;
+    margin: 5px 0;
+    display: none;
+}
+
 .list {
+    min-height: 380px;
     min-width: 350px;
     max-width: 600px;
     background-color: midnightblue;
@@ -85,3 +96,4 @@ footer {
     }
 
 }
+
